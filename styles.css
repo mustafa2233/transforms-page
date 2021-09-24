@@ -1,0 +1,47 @@
+body{
+    background: #ddd;
+    height: 1300px;
+}
+
+/* this is a parent div */
+.bank-parent{
+    height: 1000px;
+    display: grid;
+    grid-template-columns:442px  442px  442px ;
+    justify-content: center;
+    margin-top: 67px;
+    
+    
+}
+
+/*this is all child div in the parent "bank-parent"*/
+.bank-parent .child{
+ height: 502px;
+    width: 397px;
+    text-align: center;
+    margin-top: 155px;
+    background: #eee;
+    margin: 40px auto;
+    transition: .3s;
+    box-shadow: 10px 10px 12px #000000a6;
+    overflow: hidden;
+}
+
+
+.bank-parent .child:hover{
+    transform: scale(1.1)
+}
+.bank-parent .child .image{
+    width: 400px
+}
+.bank-parent .child .image img{
+    margin-top: 40px;
+    height: 200px
+}
+.bank-parent .child p{
+    font-family: arial,tahoma;
+    color: #333333d9;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 1.5;
+}
